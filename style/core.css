@@ -1,0 +1,148 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+#page {
+    min-width: 900px;
+}
+
+#top-bar {
+    width: auto;
+    background-color: #353535;
+    color: #FFFFFF;
+    height: 20px;
+    padding-top: 6px;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+#top-bar a {
+    color: #e8e8e8;
+}
+
+#top-bar a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#top-bar .logininfo {
+    display: none;
+    float:left;
+}
+
+#top-bar .langmenu {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+#page-header {
+    background-color: #eeeeee;
+    color: #3b3b3b;
+    border-top: 4px solid #e2e2e2;
+    border-bottom: 4px solid #e2e2e2;
+}
+
+#page-header .headermain {
+    text-shadow: 1px 1px 1px #808080;
+    font-size: 1.6em;
+    float: none;
+}
+
+#page-content {
+    background-color: #eeeeee;
+    color: #3b3b3b;
+}
+
+.generalbox {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #242424;
+}
+
+a {
+    color: #3b3b3b;
+}
+
+a:hover {
+    color: #969696;
+}
+
+#page-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #353535;
+    color: #FFFFFF;
+}
+
+#page-footer.clearfix:after {
+    content: normal;
+}
+
+#page-footer .homelink {
+    margin:0;
+}
+
+#page-footer a {
+    color: #e8e8e8;
+}
+
+#page-footer a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#page-footer .logininfo {
+    display: none;
+}
+
+.continuebutton {
+    text-align: center;
+}
+
+/* ---------------- Theme splash page from lang file ---------------- */
+
+.theme_screenshot h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.theme_screenshot {
+    float: left;
+    width: 310px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.theme_screenshot img {
+    max-width: 300px;
+    border: 2px solid black;
+     -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/** Redirect page settings (like the page after posting to a forum) **/
+
+.redirectmessage {
+    text-align: center;
+}
+.continuebutton {
+    text-align: center;
+}
+
+/* The div for the whole redirect page */
+.pagelayout-redirect #page {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 100px;
+    padding-top: 25px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #eeeeee;
+}

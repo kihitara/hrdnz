@@ -1,0 +1,37 @@
+#dock {
+    background-color: #353535;
+    border-right: 2px solid #e2e2e2;
+}
+
+#dock .dockedtitle h2 {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+#dock .dockedtitle {
+    border: none;
+}
+
+#dockeditempanel {
+    margin-left: 5px;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    background-color: #eeeeee;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #CCCCCC;
+}
+
+#dockeditempanel .dockeditempanel_hd {
+    border: none;
+}
+
+#dockeditempanel .dockeditempanel_bd {
+    white-space: normal;
+}
+
+.dock .block_navigation .tree_item {
+    white-space: normal;
+}

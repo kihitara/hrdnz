@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #555555;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+}
+
+.navbar a {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar .breadcrumb {
+    margin-top: 4px;
+}
+
+.navbutton {
+    font-size: 0.8em;
+    margin-top: 3px;
+}
+
+.navbutton th,
+.navbutton td {
+    padding: 0;
+}
+
+.navbar input,
+.navbar textarea,
+.navbar select,
+.navbar button {
+    height: 19px;
+    font-size: 0.8em;
+}

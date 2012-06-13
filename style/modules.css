@@ -1,0 +1,64 @@
+.forumpost {
+    border: 1px solid #CCCCCC;
+}
+
+.path-mod-forum .forumheaderlist {
+    border: none;
+}
+
+.path-mod-forum .forumheaderlist td {
+    border: 1px solid #CCCCCC;
+}
+
+.path-mod-forum .forumheaderlist .discussion .starter {
+    max-width: 350px;
+    overflow: hidden;
+}
+
+#page-mod-forum-view .forumaddnew {
+    text-align: center;
+}
+
+.mod_introbox {
+    border: 1px solid #CCCCCC;
+}
+
+.initialbar {
+    text-align: center;
+}
+
+.paging {
+    text-align: center;
+}
+
+.path-mod .optionspref {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mform fieldset {
+    border: 1px solid #CCCCCC;
+}
+
+.tabtree {
+    text-align: center;
+}
+
+.tabtree li {
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+}
+
+.tabtree li a {
+    text-decoration: none;
+}
+
+.tabtree ul {
+    border-bottom: 2px solid #CCCCCC;
+}

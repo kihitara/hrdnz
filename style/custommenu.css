@@ -1,0 +1,66 @@
+#custommenu {
+    clear: none;
+    float: right;
+    margin-top: 20px;
+    border: none;
+}
+
+.yui3-menu-horizontal > .yui3-menu-content > ul:after {
+    clear: none;
+}
+
+.yui3-skin-sam .yui3-menu-content, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-content {
+    border: none !important; 
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border: none;
+}
+
+.yui3-skin-sam .yui3-menu ul.first-of-type {
+    border: none;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal li {
+    border: 1px solid #c0c0c0;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    background-color: #FFFFFF;
+}
+
+#custommenu .yui3-menuitem-active,
+#custommenu .yui3-menuitem-active .yui3-menuitem-content,
+.yui3-menulabel .yui3-menulabel-active .yu3-menulabel-menuvisible,
+.yui3-skin-sam .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menulabel-menuvisible,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label-active .yui3-menuitem-content,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label-menuvisible,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-menuvisible {
+    background-color: #c0c0c0;
+}
+
+#custommenu .custom_menu_submenu .yui3-menu-content {
+    background: transparent;
+    max-width: 200px;
+    min-width: 150px;
+}
+
+.yui3-menu-label, .yui3-menuitem-content {
+    white-space: normal;
+}
+
+.yui3-skin-sam .yui3-menu-label,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label,
+.yui3-skin-sam .yui3-menuitem-content,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menuitem-content {
+    padding: 0 5px;
+}
+
+/* Fix border for IE */
+#custommenu .yui3-menu .yui3-menu-horizontal .yui3-menu-content {
+    border: none !important;
+}
