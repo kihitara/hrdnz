@@ -132,28 +132,28 @@ echo $OUTPUT->doctype() ?>
     <?php if ($hastopblocks) { ?>
 		    <div id="topblockwrap">
 		    <div class="top-blocks">
-		    <div id="blocktopleft">
+		    <div id="blocktopleft" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-left') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopmidlt">
+		    <div id="blocktopmidlt" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-midlt') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopmidrt">
+		    <div id="blocktopmidrt" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-midrt') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopright">
+		    <div id="blocktopright" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-right') ?>
                     </div>
@@ -167,28 +167,28 @@ echo $OUTPUT->doctype() ?>
     <?php if ($hasbtmblocks) { ?>
 		    <div id="btmblockwrap">
 		    <div class="btm-blocks">
-		    <div id="blockbtmleft">
+		    <div id="blockbtmleft" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-left') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmmidlt">
+		    <div id="blockbtmmidlt" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-midlt') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmmidrt">
+		    <div id="blockbtmmidrt" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-midrt') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmright">
+		    <div id="blockbtmright" class="block-region">
 		    <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-right') ?>
                     </div>
